@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: cloud
+    active: development
 ---
 
 spring:
@@ -20,7 +20,7 @@ endpoints:
     sensitive: false
 eureka:
   instance:
-    hostname: discovery
+    hostname: discovery-service
   client:
     registerWithEureka: false
     fetchRegistry: false
@@ -42,7 +42,7 @@ endpoints:
     sensitive: false
 eureka:
   instance:
-    hostname: discovery
+    hostname: discoveryyy
   client:
     registerWithEureka: false
     fetchRegistry: false
